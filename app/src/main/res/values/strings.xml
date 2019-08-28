@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">bindus_beta</string>
+    <string name="action_settings">Settings</string>
+    <string name="fcm_server_key">AAAAS6DMXbQ:APA91bH1Dk1a3A37C_0Ip8utmXqvI-WxeUCA1odxAZCsSgA_BSWf4qZ8q0gm_cSYqJtUGjo3szsz61YZehGkMFKj6CdN9S6-3pYCe0Chc6rtUWrUHzVzSWxtabie7w6wisKPNTbANbdX</string>
+    <string name="msg_token_fmt">fcm message</string>
+    <string name="default_notification_channel_id">fcm_default_channel</string>
+    <string name="fcm_message">ss</string>
+    <string name="default_notification_channel_name">fcm_default_channel</string>
+</resources>

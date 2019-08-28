@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite">
+    <LinearLayout
+        android:id="@+id/market_tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:paddingHorizontal="15dp">
+        <TextView
+            android:id="@+id/market_total_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="전체 0"
+            android:textColor="@color/colorBlack"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/market_sort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/edit_shape"
+            android:paddingHorizontal="5dp"
+            android:paddingVertical="5dp"
+            android:textColor="@color/colorBlack"
+            android:text="정렬 기준" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/market_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/market_tab_layout"
+        android:layout_marginLeft="15dp"
+        android:scrollbars="none">
+
+    </androidx.recyclerview.widget.RecyclerView>
+    <!--<ScrollView-->
+    <!--android:id="@+id/market_scroll_view"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_below="@+id/market_tab_layout">-->
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+    <!--<androidx.recyclerview.widget.RecyclerView-->
+    <!--android:id="@+id/market_recycler_view"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:scrollbars="none">-->
+
+    <!--</androidx.recyclerview.widget.RecyclerView>-->
+    <!--</LinearLayout>-->
+    <!--</ScrollView>-->
+</RelativeLayout>

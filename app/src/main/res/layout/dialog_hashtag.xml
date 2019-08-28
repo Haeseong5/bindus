@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="50dp"
+    android:layout_gravity="center">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorMain"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="해시태그로 자신을 소개하세요~"/>
+    <EditText
+        android:id="@+id/hashtag_edit"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginVertical="20dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/edit_shape"
+        android:maxLines="3"
+        android:textColor="@color/colorDarkGrey"
+        />
+    <!--<com.google.android.material.chip.ChipGroup-->
+        <!--android:id="@+id/chip_group"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="300dp"></com.google.android.material.chip.ChipGroup>-->
+    <!--<com.google.android.material.chip.Chip-->
+        <!--android:id="@+id/chip"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="300dp" />-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp">
+        <Button
+            android:id="@+id/nbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorMain"
+            android:text="취소"/>
+        <Button
+            android:id="@+id/pbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorMain"
+            android:layout_marginLeft="10dp"
+            android:text="확인"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="공간 등록"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/colorMain"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="공간 이름"
+                android:textColor="@color/colorDarkGrey"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:paddingVertical="5dp"
+                android:paddingHorizontal="10dp"
+                android:hint="공간 명을 입력해주세요. (예: 그라지에)"
+                android:textColor="@color/colorDarkGrey"
+                android:background="@drawable/edit_shape"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="주소"
+                android:textColor="@color/colorDarkGrey"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:paddingVertical="5dp"
+                android:paddingHorizontal="10dp"
+                android:hint="주소를 입력해주세요.\n(예: 인천광역시 미추홀구 인하로 100)"
+                android:textColor="@color/colorDarkGrey"
+                android:background="@drawable/edit_shape"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="이용가능 시간"
+                android:textColor="@color/colorDarkGrey"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:paddingVertical="5dp"
+                android:paddingHorizontal="10dp"
+                android:hint="이용가능한 시간을 입력해주세요.\n(예: 매주 월요일 7시, 8월27일 3시 등)"
+                android:textColor="@color/colorDarkGrey"
+                android:background="@drawable/edit_shape"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="공간 소개"
+                android:textColor="@color/colorDarkGrey"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:paddingVertical="5dp"
+                android:paddingHorizontal="10dp"
+                android:hint="공간을 자유롭게 소개해주세요. \n(예: 모던하고 안락한 분위기 속에서 이탈리안 코스 요리를 경험할 수 있으며 다양한 인원의 고객들을 수용할 수 있도록 유연하게 좌석과 테이블이 구성되어 있습니다.  ...."
+                android:textColor="@color/colorDarkGrey"
+                android:background="@drawable/edit_shape"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="기타"
+                android:textColor="@color/colorDarkGrey"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:paddingVertical="5dp"
+                android:paddingHorizontal="10dp"
+                android:hint="원하시는 모임의 형태가 있거나 기타 참고사항이 있다면 작성해주세요."
+                android:textColor="@color/colorDarkGrey"
+                android:background="@drawable/edit_shape"/>
+            <Button
+                android:id="@+id/place_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"
+                android:text="등록하기"
+                android:textColor="@color/colorWhite"
+                android:background="@color/colorMain"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

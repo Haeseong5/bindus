@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_menu1"
+        android:icon="@drawable/ic_outline_home_24px"
+        android:title="홈" />
+    <item
+        android:id="@+id/navigation_menu2"
+        android:icon="@drawable/ic_people_outline_black_24dp"
+        android:title="모임" />
+    <item
+        android:id="@+id/navigation_menu3"
+        android:icon="@drawable/ic_notifications_none_black_24dp"
+        android:title="알림" />
+    <item
+        android:id="@+id/navigation_menu4"
+        android:icon="@drawable/ic_face_black_24dp"
+        android:title="프로필" />
+</menu>

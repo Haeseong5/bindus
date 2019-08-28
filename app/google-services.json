@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "324820295092",
+    "firebase_url": "https://test-38218.firebaseio.com",
+    "project_id": "test-38218",
+    "storage_bucket": "test-38218.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:324820295092:android:605fccfaaf0ccf47",
+        "android_client_info": {
+          "package_name": "com.example.bindus_beta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "324820295092-93658po60mflm93nfccj6pv8m2s4huh6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6g0Vak4ZniSXTFUbWTGSn36lRLToz_hU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "324820295092-93658po60mflm93nfccj6pv8m2s4huh6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

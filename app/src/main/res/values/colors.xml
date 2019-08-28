@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorMain">#6a9c78</color>
+    <color name="colorBackground">#FAE6AF</color>
+    <color name="colorGrey">#CCCCCC</color>
+    <color name="colorDivision">#e9e9e9</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorFacebook">#4472C4</color>
+    <color name="colorDarkGrey">#414141</color>
+    <color name="chip">#ca8eed</color>
+</resources>
