@@ -25,13 +25,12 @@
                     android:layout_marginVertical="30dp">
                     <ImageView
                         android:id="@+id/profile_image"
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:layout_marginVertical="10dp"
                         android:scaleType="centerCrop"
-                        android:paddingVertical="10dp"
-                        android:paddingHorizontal="10dp"
+
                         android:background="@color/colorMain"
                         android:src="@drawable/ic_profile"
                         />
@@ -43,6 +42,38 @@
                         android:textSize="30dp"
                         android:textColor="@color/colorBlack"
                         android:text="name" />
+                    <TextView
+                        android:id="@+id/profile_hashtag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorDarkGrey"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="5dp"
+                        android:text=""/>
+                    <LinearLayout
+                        android:id="@+id/profile_badge_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingHorizontal="10dp"
+                        android:gravity="center">
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/bg_cook"
+                            android:layout_marginHorizontal="5dp"/>
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/bg_oneday"
+                            android:layout_marginHorizontal="5dp"/>
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/bg_presentation"
+                            android:layout_marginHorizontal="5dp"/>
+                    </LinearLayout>
                 </LinearLayout>
 
                 <LinearLayout
@@ -50,7 +81,6 @@
                     android:layout_height="match_parent"
                     android:gravity="center_vertical"
                     android:orientation="vertical">
-
                     <TextView
                         android:id="@+id/profile_school_text"
                         android:layout_width="wrap_content"
@@ -58,7 +88,6 @@
                         android:textSize="20dp"
                         android:text="school" />
                 </LinearLayout>
-
             </LinearLayout>
 
 
@@ -73,7 +102,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="커뮤니티"
+                        android:text="마이페이지"
                         android:textSize="20dp"
                         android:paddingVertical="5dp"
                         android:textColor="@color/colorWhite"
@@ -87,6 +116,7 @@
                     android:scrollbars="none"
                     android:background="@color/colorWhite">
                 </ListView>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -94,7 +124,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="계정"
+                        android:text="바인더스"
                         android:textSize="20dp"
                         android:paddingVertical="5dp"
                         android:textColor="@color/colorWhite"                        android:textStyle="bold"
@@ -108,76 +138,8 @@
                     android:layout_weight="1"
                     android:background="@color/colorWhite">
                 </ListView>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@color/colorMain">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="서비스"
-                        android:textSize="20dp"
-                        android:paddingVertical="5dp"
-                        android:textColor="@color/colorWhite"                        android:textStyle="bold"
-                        android:layout_marginLeft="10dp" />
-                </LinearLayout>
-                <ListView
-                    android:id="@+id/profile_listview3"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:scrollbars="none"
-                    android:layout_weight="1"
-                    android:background="@color/colorWhite">
-                </ListView>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@color/colorMain">
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="10dp"
-                        android:textSize="20dp"
-                        android:paddingVertical="5dp"
-                        android:textColor="@color/colorWhite"
-                        android:textStyle="bold" />
-                </LinearLayout>
-                <ListView
-                    android:id="@+id/profile_listview4"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:scrollbars="none"
-                    android:layout_weight="1"
-                    android:background="@color/colorWhite">
-                </ListView>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@color/colorMain">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="기타"
-                        android:textSize="16dp"
-                        android:textStyle="bold"
-                        android:layout_marginLeft="10dp" />
-                </LinearLayout>
-                <ListView
-                    android:id="@+id/profile_listview5"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:scrollbars="none"
-                    android:layout_weight="1"
-                    android:background="@color/colorWhite">
-                </ListView>
             </LinearLayout>
-            <Button
-                android:id="@+id/profile_logout_button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="로그아웃"
-                android:layout_gravity="center"/>
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

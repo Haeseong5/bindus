@@ -156,7 +156,10 @@ public class FragmentProfile extends Fragment {
     protected void setProfile(){
 //        println("nick:"+globalUser.getNickName());
         tvName.setText(globalUser.getName());
+
         tvHash.setText(globalUser.getStHashTag());
+        Log.d("profile",(globalUser.getStHashTag()));
+
         if(globalUser.getImg()!=null){
             Glide.with(getActivity()).load(globalUser.getImg()).into(ivProfileImage);
             Log.d("profile",globalUser.getImg());

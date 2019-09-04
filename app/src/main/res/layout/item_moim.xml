@@ -35,10 +35,10 @@
                     android:gravity="center_vertical|left"
                     android:layout_marginTop="5dp"
                     android:layout_width="match_parent"
-                    android:layout_height="40dp"
+                    android:layout_height="wrap_content"
                     android:background="@color/colorMain"
                     android:textColor="@color/colorWhite"
-                    android:text="test\ndddd"
+                    android:layout_marginBottom="5dp"
                     />
             </LinearLayout>
             <LinearLayout

@@ -39,7 +39,9 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
     @Override
     public void onNewToken(String token) {
         Log.d(TAG, "Refreshed token: " + token);
-        FireBaseApi.setFcmToken(FireBaseApi.firebaseUser.getUid(),token);
+        if(FireBaseApi.firebaseUser != null){
+            FireBaseApi.setFcmToken(FireBaseApi.firebaseUser.getUid(),token);
+        }
     }
 //     [END on_new_token]
     /**
